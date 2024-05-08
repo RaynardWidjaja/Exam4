@@ -13,9 +13,9 @@ def test_all_kmer():
   assert (out['CCATA'] == ['CATAT'] and "TAAAC" in out['TTAAA'] and "TAAAA" in out['TTAAA'])
 
 def test1_one_k():
-  genome = "ATGTCTGTCTGAA"
+  genome = "genome_test1.txt"
   assert one_k(genome) == 0
 
 def test2_one_k():
-  genome = "GACATTTGCTACA"
+  genome = "genome_test2.txt"
   assert one_k(genome) == 4
