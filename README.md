@@ -9,8 +9,11 @@ Python script and Pytest files are available.
 - test_exam4.py : Pytest file
 - reads.fa : Input file (for function 2 and 3)
 - python_assignment.pdf : Task description
+- genome_test1.txt : Test file for pytest for function 3
+- genome_test2.txt : Test file for pytest for function 3
 
-## To run exam4 use this following command :
+## Run exam4 
+use this following command to run exam4.py:
 ```
-exam4.py reads.fa
+python exam4.py reads.fa
 ```
